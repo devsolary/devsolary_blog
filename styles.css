@@ -20,6 +20,7 @@ body {
   font-family: "Bruno Ace SC", cursive;
   color: #0d2369c0;
   display: inline-flex;
+  margin-right: 5%;
 }
 #labelimg {
   background: blue;
@@ -41,26 +42,25 @@ body {
   display: inline-flex;
 }
 #header ul {
-  margin-left: 30%;
+  margin-left: auto;
   display: inline-flex;
-  align-items: stretch;
+  
   justify-content: space-between;
   width: 100%;
 }
 #header ul li {
   list-style-type: none;
-  width: auto;
+  width: 70%;
+  
 }
 #header ul li a {
   font-family: "Lato", sans-serif;
   font-weight: 900;
   text-decoration: none;
   color: blue;
-  width: auto;
-  padding-right: 10%;
-  margin: 20px;
+  width: 40px;
+  margin: auto;
   font-size: 25px;
-  margin: 5px;
   transition: all 0.5s ease;
   padding-bottom: 5px;
   text-align: center;
@@ -172,7 +172,7 @@ footer a {
   font-size: 20px;
   margin: 20px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 970px) {
   * {
     margin: 0;
     padding: 0;
@@ -222,6 +222,9 @@ footer a {
   }
   #header ul li a {
     width: 100%;
+  }
+  .activeNav {
+    border-bottom: 3px solid blue;
   }
 
   #openNav {
