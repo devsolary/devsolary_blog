@@ -15,11 +15,13 @@ body {
   flex-direction: column;
 }
 #label {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
   font-family: "Bruno Ace SC", cursive;
   color: #0d2369c0;
-  display: inline-flex;
+  display: inline-block;
+  position: absolute;
+  margin-left: 10px;
 }
 #labelimg {
   background: blue;

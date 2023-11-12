@@ -1,6 +1,6 @@
 const openNav = document.getElementById("openNav")
 const closeNav = document.getElementById("closeNav")
-const navBar = document.querySelector("#navBar li")
+const navBar = document.getElementsByClassName("listNav0")
 
 let viewNav = () => {
   navBar.style.display = "block"
@@ -13,6 +13,14 @@ let hideNav = () => {
   openNav.style.display = "flex"
   closeNav.style.display = "none"
 }
+
+let checkOrientation = () => {
+  if(window.innerWidth > 720){
+    navBar.style.display = "none"
+  }
+}
+
+window.addEventListener('orientationchange', checkOrientation)
 
 closeNav.addEventListener("click", function () {
   hideNav()
