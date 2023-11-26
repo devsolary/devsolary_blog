@@ -43,7 +43,7 @@ body {
   display: inline-flex;
 }
 #header ul {
-  margin-left: auto;
+  margin-left: 40%;
   display: inline-flex;
   
   justify-content: space-between;
@@ -199,11 +199,13 @@ footer a {
     padding: 0;
   }
   #label {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
     font-family: "Bruno Ace SC", cursive;
     color: #0d2369c0;
     display: flex;
+    margin-bottom: 20px;
+    position: relative;
   }
   #labelimg {
     background: blue;
@@ -227,7 +229,7 @@ footer a {
     border-bottom: 2px solid blue;
     border-left: 2px solid blue;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     z-index: 1;
     transition: all ease 0.5s;
     padding-bottom: 100px;
